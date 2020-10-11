@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+exchange:
+    direct: test-exchange
+   
+
+newrelic:
+    config:
+        file: '/home/Thiago.Pereira/Imagens/newrelic.yml'
+        app_name: 'application_test_2020' 
+#newrelic.config.app_name
